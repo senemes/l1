@@ -110,7 +110,7 @@ button{
     margin-top: 2lh;
     }
     nav p {
-        font-size: 17px;
+        font-size: 15px;
     }
     .text {
         font-size: 48px;
@@ -129,5 +129,12 @@ button{
     {
         font-size: 9px;
         height: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .text {
+        font-size: 40px;
+        line-height: 60px;
+        width: 100%;
     }
 }
